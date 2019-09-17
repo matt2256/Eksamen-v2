@@ -16,6 +16,21 @@ body {
     text-transform: uppercase;
 }
 
+.heading-secoundary {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+
+    &--main {
+        color: $color-text-dark;
+    }
+
+    &--sub {
+        text-transform: uppercase;
+        color: $color-text-dark;
+    }
+
+}
+
 .link-text {
     font-family: "Lato";
     font-weight: 400;

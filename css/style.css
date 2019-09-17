@@ -22,6 +22,15 @@ body {
   color: #f9f7f6;
   text-transform: uppercase; }
 
+.heading-secoundary {
+  font-family: "Nunito Sans";
+  font-weight: 400; }
+  .heading-secoundary--main {
+    color: #404040; }
+  .heading-secoundary--sub {
+    text-transform: uppercase;
+    color: #404040; }
+
 .link-text {
   font-family: "Lato";
   font-weight: 400;
