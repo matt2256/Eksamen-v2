@@ -15,3 +15,13 @@
     margin-right: $gutter-horizontal;
   }
 }
+
+.col-2-of-3 {
+  width: calc(2 * ((100% - 2 * #{$gutter-horizontal}) / 3) +  #{$gutter-horizontal});
+  height: 60vh;
+}
+
+.col-1-of-3 {
+  width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+    height:80vh;
+}

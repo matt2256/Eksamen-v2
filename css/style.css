@@ -101,3 +101,11 @@ body {
   float: left; }
   [class^="col-"]:not(:last-child) {
     margin-right: 1.5rem; }
+
+.col-2-of-3 {
+  width: calc(2 * ((100% - 2 * 1.5rem) / 3) +  1.5rem);
+  height: 60vh; }
+
+.col-1-of-3 {
+  width: calc((100% - 2 * 1.5rem) / 3);
+  height: 80vh; }
