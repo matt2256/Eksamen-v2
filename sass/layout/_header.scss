@@ -1,0 +1,9 @@
+.header {
+    height: 75rem;
+    overflow: hidden;
+
+    &__photo {
+        background-size: cover;
+        width: 100%;
+    }
+}

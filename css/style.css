@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Lato', sans-serif; }
+
+.u-margin-buttom-mini {
+  margin-bottom: 1rem !important; }
+
+.u-margin-buttom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-buttom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-buttom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
+.u-margin-top-medium-small {
+  margin-top: 3.65rem !important; }
+
+.u-margin-top-medium {
+  margin-top: 4rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.u-heading-center {
+  text-align: center; }
+
+.u-margin-right-small {
+  margin-right: 3rem !important; }
+
+.header {
+  height: 75rem;
+  overflow: hidden; }
+  .header__photo {
+    background-size: cover;
+    width: 100%; }

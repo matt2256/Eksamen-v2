@@ -1,25 +1,27 @@
 {
   "name": "eksamen-v2",
   "version": "1.0.0",
-  "description": "eksamen - v2",
+  "description": "eksamen",
   "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/matt2256/Eksamen-v2.git"
   },
   "keywords": [
-    "eksamen"
+    "eksamen",
+    "v2"
   ],
   "author": "matt2256",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/matt2256/Eksamen-v2/issues"
   },
-  "homepage": "https://github.com/matt2256/Eksamen-v2#readme",
-  "dependencies": {
-    "node-sass": "^4.12.0"
-  }
+  "homepage": "https://github.com/matt2256/Eksamen-v2#readme"
 }
