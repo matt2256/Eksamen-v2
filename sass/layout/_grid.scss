@@ -1,0 +1,17 @@
+//CLEAR-FIX
+@include clearFix;
+
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+  padding: .8rem;
+  
+}
+
+[class^="col-"] {
+  float: left;
+
+  &:not(:last-child) {
+    margin-right: $gutter-horizontal;
+  }
+}
