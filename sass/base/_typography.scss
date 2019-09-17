@@ -1,40 +1,60 @@
 body {
-    // light er 300 
-    // regular er 400
-    font-family: 'Nunito Sans', sans-serif;
+  // light er 300
+  // regular er 400
+  font-family: "Nunito Sans", sans-serif;
 
-    // regular er 400
-    // bold er 700
-    font-family: 'Lato', sans-serif;
+  // regular er 400
+  // bold er 700
+  font-family: "Lato", sans-serif;
 }
 
 .heading-primary {
-    font-family: "Nunito Sans";
-    font-weight: 300;
-    font-size: 7rem;
-    color: $color-text-light;
-    text-transform: uppercase;
+  font-family: "Nunito Sans" !important;
+  font-weight: 300;
+  font-size: 7rem;
+  color: $color-text-light;
+  text-transform: uppercase;
 }
 
 .heading-secoundary {
-    font-family: "Nunito Sans";
+  &--main {
+    color: $color-text-dark;
+    font-family: "Nunito Sans" !important;
     font-weight: 400;
+    font-size: 3.5rem;
+  }
 
-    &--main {
-        color: $color-text-dark;
-    }
-
-    &--sub {
-        text-transform: uppercase;
-        color: $color-text-dark;
-    }
-
+  &--sub {
+    text-transform: uppercase;
+    color: $color-text-dark;
+    font-family: "Nunito Sans" !important;
+    font-weight: 400;
+    font-size: 3rem;
+  }
 }
 
 .link-text {
-    font-family: "Lato";
-    font-weight: 400;
-    font-size: 1.6rem;
-    color: $color-text-light;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: $color-text-light;
 }
 
+.paragraph {
+  
+
+  &--main {
+    font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: $default-font-size;
+  color: $color-text-medium;
+  }
+
+  &--sub {
+    font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: $default-font-size;
+  color: $color-text-medium;
+  text-transform: uppercase;
+  }
+}

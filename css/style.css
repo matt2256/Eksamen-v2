@@ -12,24 +12,28 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
-  font-family: 'Lato', sans-serif; }
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Lato", sans-serif; }
 
 .heading-primary {
-  font-family: "Nunito Sans";
+  font-family: "Nunito Sans" !important;
   font-weight: 300;
   font-size: 7rem;
   color: #f9f7f6;
   text-transform: uppercase; }
 
-.heading-secoundary {
-  font-family: "Nunito Sans";
-  font-weight: 400; }
-  .heading-secoundary--main {
-    color: #404040; }
-  .heading-secoundary--sub {
-    text-transform: uppercase;
-    color: #404040; }
+.heading-secoundary--main {
+  color: #404040;
+  font-family: "Nunito Sans" !important;
+  font-weight: 400;
+  font-size: 3.5rem; }
+
+.heading-secoundary--sub {
+  text-transform: uppercase;
+  color: #404040;
+  font-family: "Nunito Sans" !important;
+  font-weight: 400;
+  font-size: 3rem; }
 
 .link-text {
   font-family: "Lato";
@@ -37,11 +41,27 @@ body {
   font-size: 1.6rem;
   color: #f9f7f6; }
 
+.paragraph--main {
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem;
+  color: #6e6d6d; }
+
+.paragraph--sub {
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem;
+  color: #6e6d6d;
+  text-transform: uppercase; }
+
 .u-margin-buttom-mini {
   margin-bottom: 1rem !important; }
 
 .u-margin-buttom-small {
   margin-bottom: 1.5rem !important; }
+
+.u-margin-buttom-medium-small {
+  margin-bottom: 3.65rem !important; }
 
 .u-margin-buttom-medium {
   margin-bottom: 4rem !important; }
@@ -51,6 +71,9 @@ body {
 
 .u-margin-top-small {
   margin-top: 1.5rem !important; }
+
+.u-margin-top-small-medium {
+  margin-top: 2.5rem !important; }
 
 .u-margin-top-medium-small {
   margin-top: 3.65rem !important; }
@@ -70,6 +93,9 @@ body {
 .u-margin-right-small {
   margin-right: 3rem !important; }
 
+.u-margin-left-small {
+  margin-left: 1.5rem !important; }
+
 .header {
   height: 75rem;
   overflow: hidden; }
@@ -83,8 +109,7 @@ body {
   background-color: #000000; }
   .navigation__header {
     display: inline-block;
-    margin-left: 5%;
-    padding-top: 3rem; }
+    margin-left: 5%; }
   .navigation__list--right {
     display: inline-block;
     margin-left: 39%;
@@ -102,19 +127,36 @@ body {
   clear: both; }
 
 .row {
-  max-width: 100%;
+  max-width: 95%;
   margin: 0 auto;
   padding: .8rem; }
 
 [class^="col-"] {
   float: left; }
   [class^="col-"]:not(:last-child) {
-    margin-right: 1.5rem; }
-
-.col-2-of-3 {
-  width: calc(2 * ((100% - 2 * 1.5rem) / 3) +  1.5rem);
-  height: 60vh; }
+    margin-right: 5rem; }
 
 .col-1-of-3 {
-  width: calc((100% - 2 * 1.5rem) / 3);
-  height: 80vh; }
+  width: calc((95% - 2 * 1.5rem) / 3);
+  height: 62vh; }
+
+.col-1-of-2 {
+  width: calc((95% - 5rem) / 2); }
+
+.section-information {
+  height: 25vh; }
+  .section-information__heading {
+    text-align: center; }
+  .section-information__grid--paragraph {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto; }
+
+.section-houseInformation {
+  background-color: #a0a7a7; }
+  .section-houseInformation__card {
+    background-color: #f9f7f6; }
+    .section-houseInformation__card--photo {
+      background-size: cover;
+      width: 100%;
+      height: 35vh; }

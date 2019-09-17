@@ -3,12 +3,17 @@ $color-black: #000000;
 
 //TEXT COLOR
 $color-text-light: #f9f7f6;
-$color-text-medium: #aaa;
+$color-text-medium: rgb(110, 109, 109);
 $color-text-dark: #404040;
 
+//BACKGROUND COLOR 
+$color-grey-bg: rgb(160, 167, 167);
+$color-light-bg: #f9f7f6;
+
 // GRID
-$grid-width: 100%;
-$gutter-horizontal: 1.5rem;
+$grid-width: 95%;
+$gutter-horizontal--section-information: 5rem;
+$gutter-horizontal--house-information: 1.5rem;
 
 // FONT-SIZE
 $default-font-size: 1.6rem;
