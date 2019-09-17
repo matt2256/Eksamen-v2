@@ -1,5 +1,25 @@
 body {
+    // light er 300 
+    // regular er 400
     font-family: 'Nunito Sans', sans-serif;
+
+    // regular er 400
+    // bold er 700
     font-family: 'Lato', sans-serif;
+}
+
+.heading-primary {
+    font-family: "Nunito Sans";
+    font-weight: 300;
+    font-size: 7rem;
+    color: $color-text-light;
+    text-transform: uppercase;
+}
+
+.link-text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: $color-text-light;
 }
 
