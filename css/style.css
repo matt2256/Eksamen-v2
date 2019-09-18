@@ -164,11 +164,12 @@ body {
   width: calc((95% - 5rem) / 2); }
 
 .footer {
-  height: 40rem; }
+  height: 40rem;
+  background-color: #393b3b; }
 
-.fa-facebook-square {
+.footer-SoMe__icon {
   font-size: 5rem;
-  color: gold; }
+  color: #6e6d6d; }
 
 .section-information {
   height: 25vh; }
