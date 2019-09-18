@@ -1,26 +1,40 @@
 <html lang="dk">
+  <!-- Head -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="decription" content="Natual living - Eksamen-V2" />
+
+    <!-- Script used to make font awsome work -->
     <script src="https://kit.fontawesome.com/e3d22eeef3.js"></script>
+
+    <!-- link to fonts from font awsome -->
+    <link rel="stylesheet" href="css/all.css" />
+
+    <!-- Link to fonts imported form google fonts  -->
     <link
       href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/all.css" />
-
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Link to the css file -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- The title displayed in the browser -->
     <title>Natural Living</title>
   </head>
+
+  <!-- Body -->
   <body>
+    <!-- Header -->
     <header class="header">
+      <!-- The image at the top of the page -->
       <img
         class="header__photo"
         src="css/img/2010-hus-i-træ.jpg"
@@ -28,10 +42,17 @@
         alt="Hus i træ top - cover billede for header"
       />
     </header>
+
+    <!-- Navigation -->
     <nav class="navigation">
+      <!-- The headline in the navigation, it is set in the left side of the navigation -->
       <h1 class="navigation__header heading-primary u-margin-top-medium">
         Natural Living
       </h1>
+
+      <!-- The list that contains three element. They are placed in the right side of the navigation. -->
+      <!-- The list is composed of a unordered list. Three ordered list elements is placed in side of the unordered list. 
+        Inside of each ordered list element, is placed ancor element that leads to no where.  -->
       <ul class="navigation__list--right">
         <li class="navigation__list--item">
           <a href="#" class="navigation__list--link link-text">Små Træhuse</a>
@@ -44,7 +65,12 @@
         </li>
       </ul>
     </nav>
+
+    <!-- Main -->
+    <!-- The main secton of the pages is split into 3 sections. Each section displayes different content. -->
     <main class="main">
+
+      <!-- The first section is called "section-information". This section is used to hold a h2 element and a grid that consist of 2 columns.  -->
       <section class="section-information">
         <h2
           class="section-information__heading heading-secoundary--main u-margin-top-medium u-margin-buttom-small"
@@ -84,6 +110,9 @@
           </div>
         </div>
       </section>
+
+      <!-- The secound grid is called "section-houseInformation. This section i used to hold a grid, that consist of 3 columns. 
+        Each column contains a img, a h2 element a three paragraphs." -->
       <section class="section-houseInformation">
         <div class="row">
           <div
@@ -160,6 +189,9 @@
           </div>
         </div>
       </section>
+
+      <!-- The third section is called sectio__image. This section is used to hold img and a ancor. 
+        The image filles the hole width. The ancor element is used to make a button. .-->
       <section class="section__image">
         <img
           src="css/img/5642_Hejrelunden_(20).jpg"
@@ -172,7 +204,14 @@
         >
       </section>
     </main>
+
+    <!-- Footer  -->
+    <!-- The footer is made of two sections. The first section is used to hold the social media links and the secound section is used to hold links and contact information. -->
     <footer class="footer">
+
+      <!-- The first section is called footer-SoMe (SoMe is short for social media). This section is used to hold a unordered list. 
+        Three ordered list element is placed inside of the unordered list. The ordered list elements is used to to hold a ancor element that is used to hold a i tag. 
+        The i tag is used to hold the SoMe fonts form fontawsome -->
       <section class="footer-SoMe">
         <ul class="footer-SoMe__list">
           <li class="footer-SoMe__list--item">
@@ -192,6 +231,11 @@
           </li>
         </ul>
       </section>
+
+      <!-- The secound section is called footer-link. This section is used to hold a three unordered list. Each of the unordered list consist of serveral ordered list. -->
+      <!-- The first two ordered list consist of ancor elements, that is used to hold the text and link -->
+      <!-- The third ordered list consist of paragraphs, thats used to hold the contact information.-->
+          <!-- A ancor element is placed inside of the paragraph in in fourth ordered list. This ancor element is used to link to a email address -->
       <section class="footer-link">
         <div class="row">
           <div class="col-1-of-3">
@@ -219,9 +263,7 @@
                 <a href="#" class="paragraph--footer">- Kontakt os</a>
               </li>
               <li class="footer-link__list--item">
-                <a href="#" class="paragraph--footer"
-                  >- Ledige stillinger</a
-                >
+                <a href="#" class="paragraph--footer">- Ledige stillinger</a>
               </li>
               <li class="footer-link__list--item">
                 <a href="#" class="paragraph--footer">- Natural living</a>
@@ -240,10 +282,14 @@
                 <p class="paragraph--footer">8455 Træhuse</p>
               </li>
               <li class="footer-link__list--item">
-                <p class="paragraph--footer u-margin-top-small">Mail: <a href="#" class="paragraph--footer">Info@natual.dk</a></p>
+                <p class="paragraph--footer u-margin-top-small">
+                  Mail: <a href="#" class="paragraph--footer">Info@natual.dk</a>
+                </p>
               </li>
               <li class="footer-link__list--item">
-                <p class="paragraph--footer u-margin-top-small">Tlf: 98989854</p>
+                <p class="paragraph--footer u-margin-top-small">
+                  Tlf: 98989854
+                </p>
               </li>
             </ul>
           </div>
