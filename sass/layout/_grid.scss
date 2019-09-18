@@ -18,9 +18,14 @@
 
 
 
-.col-1-of-3 {
+.col-1-of-3-information {
   width: calc((95% - 2 * #{$gutter-horizontal--house-information}) / 3);
     height: 62vh;
+}
+
+.col-1-of-3 {
+  width: calc((95% - 2 * #{$gutter-horizontal--house-information}) / 3);
+    height: 30vh;
 }
 
 .col-1-of-2 {

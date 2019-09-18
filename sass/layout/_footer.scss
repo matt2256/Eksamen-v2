@@ -26,18 +26,11 @@
 
 .footer-link {
 
-    &__link {
+    &__list {
+        text-align: left;
 
         &--item {
-
-        }
-
-        &--link {
-
-        }
-
-        &--paragraph{
-            
+            list-style-type: none;
         }
     }
 }

@@ -66,6 +66,12 @@ body {
   padding-top: 1.3rem;
   padding-bottom: 1.3rem; }
 
+.paragraph--footer {
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem;
+  color: #6e6d6d; }
+
 .u-margin-buttom-mini {
   margin-bottom: 1rem !important; }
 
@@ -156,9 +162,13 @@ body {
   [class^="col-"]:not(:last-child) {
     margin-right: 5rem; }
 
-.col-1-of-3 {
+.col-1-of-3-information {
   width: calc((95% - 2 * 1.5rem) / 3);
   height: 62vh; }
+
+.col-1-of-3 {
+  width: calc((95% - 2 * 1.5rem) / 3);
+  height: 30vh; }
 
 .col-1-of-2 {
   width: calc((95% - 5rem) / 2); }
@@ -179,6 +189,11 @@ body {
   .footer-SoMe__list--icon {
     font-size: 5rem;
     color: #6e6d6d; }
+
+.footer-link__list {
+  text-align: left; }
+  .footer-link__list--item {
+    list-style-type: none; }
 
 .section-information {
   height: 25vh; }

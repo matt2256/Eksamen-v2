@@ -68,4 +68,11 @@ body {
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
   }
+
+  &--footer {
+    font-family: "Lato" !important;
+    font-weight: 400 !important;
+    font-size: $default-font-size;
+    color: $color-text-medium;
+  }
 }
