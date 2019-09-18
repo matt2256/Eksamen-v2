@@ -1,3 +1,6 @@
+// MIXINS.SCSS
+
+// MIXING FOR USING FLOATS IN CUSTOM GRID 
 @mixin clearFix {
     &::after{
         content: "";
@@ -6,6 +9,7 @@
     }
 }
 
+// MIXIN FOR POSITIONING WIHT ABSOLUT
 @mixin AbsCenter {
     position: absolute;
     top: 40%;
