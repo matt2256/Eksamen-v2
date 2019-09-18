@@ -41,20 +41,31 @@ body {
 }
 
 .paragraph {
-  
-
   &--main {
     font-family: "Lato" !important;
-  font-weight: 400 !important;
-  font-size: $default-font-size;
-  color: $color-text-medium;
+    font-weight: 400 !important;
+    font-size: $default-font-size;
+    color: $color-text-medium;
   }
 
   &--sub {
     font-family: "Lato" !important;
-  font-weight: 400 !important;
-  font-size: $default-font-size;
-  color: $color-text-medium;
-  text-transform: uppercase;
+    font-weight: 400 !important;
+    font-size: $default-font-size;
+    color: $color-text-medium;
+    text-transform: uppercase;
+  }
+
+  &--btn {
+    font-family: "Lato" !important;
+    font-weight: 400 !important;
+    font-size: 2.7rem;
+    color: $color-text-light;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
   }
 }

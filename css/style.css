@@ -54,6 +54,18 @@ body {
   color: #6e6d6d;
   text-transform: uppercase; }
 
+.paragraph--btn {
+  font-family: "Lato" !important;
+  font-weight: 400 !important;
+  font-size: 2.7rem;
+  color: #f9f7f6;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem; }
+
 .u-margin-buttom-mini {
   margin-bottom: 1rem !important; }
 
@@ -95,6 +107,14 @@ body {
 
 .u-margin-left-small {
   margin-left: 1.5rem !important; }
+
+.btn {
+  border-radius: 50px;
+  border: 3px solid #f9f7f6;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0%); }
 
 .header {
   height: 75rem;
@@ -160,3 +180,10 @@ body {
       background-size: cover;
       width: 100%;
       height: 35vh; }
+
+.section__image {
+  position: relative; }
+  .section__image--photo {
+    max-width: 100%;
+    background-image: cover;
+    overflow: hidden; }

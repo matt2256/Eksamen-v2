@@ -28,3 +28,12 @@
         }
     }
 }
+
+.section__image {
+    position: relative;
+    &--photo {
+        max-width: 100%;
+        background-image: cover;
+        overflow: hidden;  
+    }
+}
