@@ -1,3 +1,12 @@
+@charset "UTF-8";
+@keyframes btnMoveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 *,
 *::after,
 *::before {
@@ -121,6 +130,14 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, 0%); }
+
+´
+.animated {
+  animation-name: btnMoveUp;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.75;
+  animation-fill-mode: backwards; }
 
 .header {
   height: 75rem;

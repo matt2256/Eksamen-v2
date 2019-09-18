@@ -6,3 +6,13 @@
      @include AbsCenter;
     
 }
+´
+
+// ANIMATION FOR THE BUTTON
+.animated {
+    animation-name: btnMoveUp;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.75;
+    animation-fill-mode: backwards;
+}
